@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-O3",
+                "-IC:/opencv/build/include",
+                "-LC:/opencv/build/x64/mingw/lib",
+                "-lopencv_core4100",
+                "-lopencv_imgcodecs4100",
+                "-lopencv_videoio4100"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiler generated task for Masterlapse."
+        }
+    ]
+}

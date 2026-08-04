@@ -1,0 +1,21 @@
+﻿# Build & Binaries
+build/
+*.exe
+*.obj
+*.dll
+*.pdb
+*.user
+*.suo
+*.lock
+
+# Media & Timelapse Outputs
+*.avi
+*.mp4
+*.jpg
+*.png
+failsafe_frames*/
+profiles/*.json
+
+# Temporary Watchdog Scripts
+watchdog_*.bat
+hidden_watchdog_*.vbs
